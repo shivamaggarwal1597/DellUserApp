@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="#ecf0f1"
-    tools:context="com.example.shivam.delluserapp.ConfirmationAddActivity">
+    tools:context="com.dell.shivam.delluserapp.ConfirmationAddActivity">
 <TextView
     android:layout_width="match_parent"
     android:layout_height="200dp"

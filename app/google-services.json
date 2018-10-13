@@ -8,6 +8,50 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:327604579394:android:107446c50b6ad3be",
+        "android_client_info": {
+          "package_name": "com.dell.shivam.delluserapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327604579394-ghaomv235ehnn33m06lpb8c4in1os0ia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dell.shivam.delluserapp",
+            "certificate_hash": "e74bf309f85b12c8a6d40318bbba84ecbba0b78a"
+          }
+        },
+        {
+          "client_id": "327604579394-h6oqujoj5ak2ussa6k4lneiqmpa9m7ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJAKaaa_VAlPVSi9joEuXa7PBNDlTAvX0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327604579394-h6oqujoj5ak2ussa6k4lneiqmpa9m7ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:327604579394:android:d75aa4ec50ab25b0",
         "android_client_info": {
           "package_name": "com.example.shivam.delluserapp"

@@ -9,5 +9,5 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context="com.example.shivam.delluserapp.Fragments.DisplayDevicesFragment"
+    tools:context="com.dell.shivam.delluserapp.Fragments.DisplayDevicesFragment"
     tools:listitem="@layout/fragment__display_device_item" />

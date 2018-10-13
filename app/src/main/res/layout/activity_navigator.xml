@@ -5,7 +5,7 @@
     android:layout_margin="20dp"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.example.shivam.delluserapp.NavigatorActivity">
+    tools:context="com.dell.shivam.delluserapp.NavigatorActivity">
 
   <LinearLayout
       android:layout_width="match_parent"

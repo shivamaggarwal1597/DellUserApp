@@ -9,5 +9,5 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context="com.example.shivam.delluserapp.Fragments.SellInFragment"
+    tools:context="com.dell.shivam.delluserapp.Fragments.SellInFragment"
     tools:listitem="@layout/fragment_item_sell_in" />
