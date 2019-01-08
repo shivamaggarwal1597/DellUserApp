@@ -52,10 +52,10 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:padding="5dp"
-        android:text="SELECT AN OPTION AS PER YOUR NEED:
+        android:text="SELECT AN OPTION AS PER YOUR NEED:\n
 
->If there is any defect in any piece or there is any defect reported by the customer in any piece, select the respective option.
->If their is a refund regarding a product or there is a need to process a refund for a deveice, select the respective option which will guide you through the process.
+>If there is any defect in any piece or there is any defect reported by the customer in any piece, select the respective option.\n
+>If their is a refund regarding a product or there is a need to process a refund for a deveice, select the respective option which will guide you through the process.\n
 >If you have any queries, you can chat with admin through the respective option. You can also look up the chats in that option. "
         android:layout_weight="4"/>
 </LinearLayout>
