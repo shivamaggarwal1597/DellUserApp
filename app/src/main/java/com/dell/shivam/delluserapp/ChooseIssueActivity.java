@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class ChooseIssueActivity extends AppCompatActivity {
     Button chat_admin,report_defect,report_refund;
@@ -32,6 +33,8 @@ public class ChooseIssueActivity extends AppCompatActivity {
                 //2.) While searching devices, condition needs to be added
                 //3.) While display request, condition needs to be checked
                 //4.) Admin Side --> Send product back to market --> set everything to default and also clear data (from sell_in and sell_out node)
+
+                Toast.makeText(ChooseIssueActivity.this,"INITIATING REFUND PROCESS",Toast.LENGTH_LONG).show();
             }
         });
         report_defect.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +48,8 @@ public class ChooseIssueActivity extends AppCompatActivity {
             //2.) While searching devices, condition needs to be added
             //3.) While display request, condition needs to be checked
             //4.) Admin Side --> Send product back to market --> set everything to default and also clear data (from sell_in and sell_out node)
+                Toast.makeText(ChooseIssueActivity.this,"INITIATING DEFECT PROCESS",Toast.LENGTH_LONG).show();
+
             }
         });
     }
