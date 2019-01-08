@@ -17,33 +17,34 @@
         android:roundIcon="@drawable/download"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.dell.shivam.delluserapp.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.dell.shivam.delluserapp.NavigatorActivity" />
+        <activity android:name=".NavigatorActivity" />
         <activity
-            android:name="com.dell.shivam.delluserapp.PassbookActivity"
+            android:name=".PassbookActivity"
             android:label="@string/title_activity_passbook" />
-        <activity android:name="com.dell.shivam.delluserapp.BarcodeActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.ScanActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.AddProductAsUserActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.SetSellingDetailsActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.AddStoreUserData" />
-        <activity android:name="com.dell.shivam.delluserapp.LoginActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.ShowSchemeActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.ReportCompetetionActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.IssuesActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.SearchActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.DisplayActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.MakeDisplayRequestActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.ConfirmationAddActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.ShowInformationActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.TransferActivity" />
-        <activity android:name="com.dell.shivam.delluserapp.ConfirmTransferActivity"></activity>
+        <activity android:name=".BarcodeActivity" />
+        <activity android:name=".ScanActivity" />
+        <activity android:name=".AddProductAsUserActivity" />
+        <activity android:name=".SetSellingDetailsActivity" />
+        <activity android:name=".AddStoreUserData" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ShowSchemeActivity" />
+        <activity android:name=".ReportCompetetionActivity" />
+        <activity android:name=".IssuesActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".DisplayActivity" />
+        <activity android:name=".MakeDisplayRequestActivity" />
+        <activity android:name=".ConfirmationAddActivity" />
+        <activity android:name=".ShowInformationActivity" />
+        <activity android:name=".TransferActivity" />
+        <activity android:name=".ConfirmTransferActivity" />
+        <activity android:name=".ChooseIssueActivity"></activity>
     </application>
 
 </manifest>

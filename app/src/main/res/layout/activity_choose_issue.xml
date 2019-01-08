@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.dell.shivam.delluserapp.ChooseIssueActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/chat_with_admin_issue"
+        android:gravity="center_vertical|left"
+        android:textStyle="italic"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"
+        android:text="Chat With Admin"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|left"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:id="@+id/report_a_defect_issue"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_light"
+        android:text="Report a defected piece"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:id="@+id/process_refund_issue"
+        android:paddingLeft="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_vertical|left"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:text="Process Refund"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:text="SELECT AN OPTION AS PER YOUR NEED:
+
+>If there is any defect in any piece or there is any defect reported by the customer in any piece, select the respective option.
+>If their is a refund regarding a product or there is a need to process a refund for a deveice, select the respective option which will guide you through the process.
+>If you have any queries, you can chat with admin through the respective option. You can also look up the chats in that option. "
+        android:layout_weight="4"/>
+</LinearLayout>

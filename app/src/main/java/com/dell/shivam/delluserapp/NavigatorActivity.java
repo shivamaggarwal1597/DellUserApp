@@ -64,7 +64,7 @@ public class NavigatorActivity extends AppCompatActivity {
         issues_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(NavigatorActivity.this,IssuesActivity.class);
+                Intent intent = new Intent(NavigatorActivity.this,ChooseIssueActivity.class);
                 startActivity(intent);
             }
         });
